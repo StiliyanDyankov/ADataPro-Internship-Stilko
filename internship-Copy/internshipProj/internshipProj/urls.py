@@ -22,4 +22,5 @@ urlpatterns = [
     path('', GovAnalysis.views.index),
     path('articlesList/', GovAnalysis.views.articlesList),
     path('entitiesOverv/', GovAnalysis.views.entitiesOverv),
+    path('about/', GovAnalysis.views.about),
 ]
