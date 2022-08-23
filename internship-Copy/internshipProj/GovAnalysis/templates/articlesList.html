@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <link rel="stylesheet" href="{% static 'css\bootstrap-5.2.0-beta1-dist\css\bootstrap.min.css' %}">
         <link rel="stylesheet" href="{% static 'css\main.css' %}" type="text/css">
-        <link rel="stylesheet" href="{% static 'css\articlesListStyles.css' %}" type="text/css"> 
-        
+        <link rel="stylesheet" href="{% static 'css\articlesList.css' %}" type="text/css"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -40,6 +39,68 @@
                 </nav>
             </div>
             <div class="content-container">
+                
+                <div class="about-context">
+                    <div class="context-heading">Aritcles</div>
+                    <div class="context-desc">List of all articles and their corresponding analysis</div>
+                    <div class="heading-div"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="person-card person-card-left">
+                        <div class="pcard-photo-frame">
+                            <img src="{% static 'images/parliament.jpeg' %}" alt="Photo of a team member">
+                        </div>
+                        <div class="pcard-content">
+                            <div class="pcard-name"><a href="#" class="link-norm">Parliament passes yet another bill</a></div>
+                            <div class="pcard-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio turpis non ipsum fusce quisque enim.</div>
+                            <div class="pcard-gmail">12.04.2022</div>
+                        </div>
+                    </div>
+
+                    <div class="person-card person-card-left">
+                        <div class="pcard-photo-frame">
+                            <img src="{% static 'images/parliament.jpeg' %}" alt="Photo of a team member">
+                        </div>
+                        <div class="pcard-content">
+                            <div class="pcard-name"><a href="#" class="link-norm">Parliament passes yet another bill</a></div>
+                            <div class="pcard-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio turpis non ipsum fusce quisque enim.</div>
+                            <div class="pcard-gmail">12.04.2022</div>
+                        </div>
+                    </div>
+
+                    <div class="person-card person-card-left">
+                        <div class="pcard-photo-frame">
+                            <img src="{% static 'images/parliament.jpeg' %}" alt="Photo of a team member">
+                        </div>
+                        <div class="pcard-content">
+                            <div class="pcard-name"><a href="#" class="link-norm">Parliament passes yet another bill</a></div>
+                            <div class="pcard-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio turpis non ipsum fusce quisque enim.</div>
+                            <div class="pcard-gmail">12.04.2022</div>
+                        </div>
+                    </div>
+
+                    <div class="person-card person-card-left">
+                        <div class="pcard-photo-frame">
+                            <img src="{% static 'images/parliament.jpeg' %}" alt="Photo of a team member">
+                        </div>
+                        <div class="pcard-content">
+                            <div class="pcard-name"><a href="#" class="link-norm">Parliament passes yet another bill</a></div>
+                            <div class="pcard-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio turpis non ipsum fusce quisque enim.</div>
+                            <div class="pcard-gmail">12.04.2022</div>
+                        </div>
+                    </div>
+
+                    <div class="article-nav">
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/chevron-left.svg' %}" alt="chevron left"></a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/one.svg' %}" alt="first page"></a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/two.svg' %}" alt="second page"></a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/three.svg' %}" alt="third page"></a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/three-dots-svgrepo-com.svg' %}" alt="first page"></a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link btn-link-last">last</a></div>
+                        <div class="article-nav-btn"><a href="#" class="btn-link"><img src="{% static 'images/chevron-right.svg' %}" alt="chevron right"></a></div>
+                    </div>
+                </div>
                 
             </div>
             <div class="footer-container">

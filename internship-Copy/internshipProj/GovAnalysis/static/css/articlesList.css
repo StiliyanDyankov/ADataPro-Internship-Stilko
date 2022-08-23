@@ -1,0 +1,127 @@
+.content-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-context {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.context-heading {
+    font-size: 36px;
+}
+
+.context-desc {
+    font-size: 28px;
+    color: #717171;
+}
+
+.heading-div {
+    background-color: #CAEBF2;
+    border: 1px solid #CAEBF2;
+    border-radius: 1px;
+    width: 80%;
+}
+
+.about-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.person-card {
+    width: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.person-card-left {
+    flex-direction: row;
+}
+
+.person-card-right {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.person-card .pcard-photo-frame {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-card .pcard-photo-frame img {
+    display: block;
+    width: 100%;
+}
+
+.pcard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 450px;
+}
+
+.person-card-right .pcard-content {
+    align-items: flex-end;
+}
+
+.person-card-right .pcard-content .pcard-desc {
+    text-align: end;
+}
+
+.pcard-name {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px dashed #FF3B3F;
+}
+
+.pcard-desc {
+    font-size: 16px;
+}
+
+.pcard-gmail {
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+.link-norm {
+    border-bottom: none;
+}
+
+.article-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.article-nav .article-nav-btn {
+    width: auto;
+    height: 16px;
+}
+
+.article-nav .article-nav-btn .btn-link img {
+    height: 100%;
+}
+
+.btn-link-last {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-link-last:hover {
+    color: inherit;
+}
