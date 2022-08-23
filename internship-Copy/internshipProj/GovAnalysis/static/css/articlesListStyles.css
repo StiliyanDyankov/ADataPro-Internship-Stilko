@@ -1,3 +1,100 @@
-.sadasa {
-    color: aqua;
+.content-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.about-context {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.context-heading {
+    font-size: 36px;
+}
+
+.context-desc {
+    font-size: 28px;
+    color: #717171;
+}
+
+.heading-div {
+    background-color: #CAEBF2;
+    border: 1px solid #CAEBF2;
+    border-radius: 1px;
+    width: 80%;
+}
+
+.about-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: -30px; */
+    padding: 30px 0;
+}
+
+.person-card {
+    width: auto;
+    display: flex;
+}
+
+.person-card-left {
+    flex-direction: row;
+}
+
+.person-card-right {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.person-card .pcard-photo-frame {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-card .pcard-photo-frame img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px dashed #FF3B3F;
+}
+
+.pcard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 350px;
+}
+
+.person-card-right .pcard-content {
+    align-items: flex-end;
+}
+
+.person-card-right .pcard-content .pcard-desc {
+    text-align: end;
+}
+
+.pcard-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pcard-desc {
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+.pcard-gmail {
+    font-size: 16px;
+    border-bottom: 2px dashed #FF3B3F;
+}
+
